@@ -21,5 +21,18 @@ To run this project, you need the following dependencies:
 - NumPy
 - Matplotlib
 
-You can install the required libraries using pip
+Installation
+Clone this repository to your local machine or download the source code as a ZIP file.
+Make sure you have all the required dependencies installed (see Requirements).
+Open a terminal or command prompt and navigate to the project directory.
+Usage
+The main script for the project is digit_recognition.py.
+The script will load the MNIST dataset, preprocess the data, build and train the CNN model, and then evaluate its performance on the test set.
+After training, the script will display the test accuracy of the model and show predictions for the first ten test images along with their actual labels.
+Results
+The model's accuracy on the test set will be displayed in the terminal after training. Additionally, the script will show sample images from the test set and their corresponding predicted labels using matplotlib.
+
+
+
+
 
